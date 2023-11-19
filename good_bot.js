@@ -4,6 +4,7 @@
  */
 function good_bot(query='') {
     if (query.trim() === 'bot') {
-         return "awww thank you";
+         return "Thank you. 🥰";
     }
+    return '';
 }
