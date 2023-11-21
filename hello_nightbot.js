@@ -6,5 +6,5 @@ function hello_nightbot(query='') {
     if (query.trim() === 'Nightbot.') {
          return 'Hello.';
     }
-    return ' ';
+    return '';
 }
