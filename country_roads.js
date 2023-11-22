@@ -1,6 +1,6 @@
 /*
  * Nightbot command:
- * !commands -ul=moderator -cd=30 country $(eval country_roads('$(query)'); $(urlfetch json https://raw.githubusercontent.com/MarkVerstappen/BigRigTravels/master/country_roads.js);)
+ * !commands add -ul=moderator -cd=30 country $(eval country_roads('$(query)'); $(urlfetch json https://raw.githubusercontent.com/MarkVerstappen/BigRigTravels/master/country_roads.js);)
  */
 function country_roads(query='') {
     if (query.trim() === 'roads... Take me home...') {
