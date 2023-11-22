@@ -6,5 +6,5 @@ function evening_nightbot(query='') {
     if (query.trim() === 'Nightbot.') {
          return 'Good evening!';
     }
-    return ' ';
+    return 'Hello! Got your night googles ready?';
 }

@@ -6,5 +6,5 @@ function bad_bot(query='') {
     if (query.trim() === 'bot!') {
          return 'I will pretend to do better next time 🔧 person.';
     }
-    return ' ';
+    return '😲';
 }
