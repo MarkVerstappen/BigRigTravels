@@ -6,5 +6,5 @@ function morning_nightbot(query='') {
     if (query.trim() === 'Nightbot.') {
          return 'Good morning sunshine! ☀';
     }
-    return " ";
+    return "Hearing from you always brightens my day.";
 }
