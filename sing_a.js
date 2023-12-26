@@ -6,5 +6,5 @@ function sing_a(query='') {
     if (query.trim() === 'a song Nightbot!') {
          return '🎶Steve's been everywhere man, Steve's Crossed the deserts bare, man Steve's breathed the mountain air, man Of travel Steve's had my share, man Steve's been everywhere!🎶';
     }
-    return ' ';
+    return 'Sing? Me?';
 }
