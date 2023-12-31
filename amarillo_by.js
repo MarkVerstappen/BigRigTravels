@@ -6,5 +6,5 @@ function amarillo_by(query='') {
     if (query.trim() === 'by morning...') {
          return '🎶Up from San Antone... Everything that I got... Is just what I have got on...🎶';
     }
-    return 'Wait... Its morning?!';
+    return 'Wait... Its not morning?!';
 }
