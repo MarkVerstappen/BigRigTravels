@@ -4,7 +4,7 @@
  */
 function california_dreamin(query='') {
     if (query.trim() === 'dreamin...') {
-         return '🎶On such a winter's day...🎶';
+         return '🎶On such a winter\'s day...🎶';
     }
-    return 'California? I'm no topography expert, but lets give another packet to Jemima! 🐸';
+    return 'California? I\'m no topography expert, but lets give another packet to Jemima! 🐸';
 }
